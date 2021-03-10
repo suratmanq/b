@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">	
+	<style type="text/css">
+body,html{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;background:#fff}img{max-width:100%}.header{padding-bottom:13px;margin-bottom:13px}.container{max-width:1024px}.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #e1e2e3}.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px}.row.content,.row.footer,.row.header{widthx:auto;max-widthx:100%}.row.footer{padding:30px 0;background:0 0}.content .col-sm-12{padding:0}.content .col-md-9s{margin-right:-25px}.posts-image{width:25%;display:block;float:left}.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative}.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px!important}.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;-webkit-transition:.6s opacity;transition:.6s opacity}.posts-image:hover img{opacity:.8}.posts-image:hover h2{background:rgba(0,0,0,.7)}.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;-webkit-transition:.6s opacity;transition:.6s background}.posts-image h2 a{color:#fff}.posts-image-big{display:block;width:100%}.posts-image-big .posts-image-content{margin:0 0 10px!important}.posts-image-big img{height:380px}.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px}.posts-image-big h2 a{color:#111}.posts-image-big:hover h2{background:0 0}.posts-image-single .posts-image-content,.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0!important}.posts-image-single p{font-size:12px;line-height:18px!important}.posts-images{clear:both}.list-group li{padding:0}.list-group li a{display:block;padding:8px}.widget{margin-bottom:20px}h3.widget-title{font-size:20px}a{color:#f42966;text-decoration:none}.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee}.footer a{margin:0 15px}.navi{margin:13px 0}.navi a{margin:5px 2px;font-size:95%}@media  only screen and (min-width:0px) and (max-width:991px){.container{width:auto;max-width:100%}.navbar{padding:5px 0}.navbar .container{width:100%;margin:0 15px}}@media  only screen and (min-width:0px) and (max-width:767px){.content .col-md-3{padding:15px}}@media  only screen and (min-width:481px) and (max-width:640px){.posts-image img{height:90px}.posts-image-big img{height:320px}.posts-image-single{width:33.3%}.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0!important}}@media  only screen and (min-width:0px) and (max-width:480px){.posts-image img{height:80px}.posts-image-big img{height:240px}.posts-image-single{width:100%}.posts-image-single .posts-image-content{margin:0!important}.posts-image-single img{height:auto}}.v-cover{height: 380px; object-fit: cover;}.v-image{height: 200px; object-fit: cover;}.dwn-cover{max-height: 460px; object-fit: cover;}.main{margin-top: 6rem;}.form-inline .form-control{min-width: 300px;}
+	</style>
+	<title>الخوارزميات في البرمجة</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Article", 
+  "author": {
+    "@type": "Person",
+    "name": "المصممين"
+  },
+  "headline": "الخوارزميات في البرمجة",
+  "datePublished": "2021-03-09",
+  "image": "https://i.pinimg.com/originals/14/cc/4f/14cc4fb89623eef07330abb2bc4835d1.png",
+  "publisher": {
+    "@type": "Organization",
+    "name": "الأخيرة",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://via.placeholder.com/512.png?text=%D8%A7%D9%84%D8%AE%D9%88%D8%A7%D8%B1%D8%B2%D9%85%D9%8A%D8%A7%D8%AA+%D9%81%D9%8A+%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D8%A9",
+      "width": 512,
+      "height": 512
+    }
+  }
+}
+</script>
+	<!-- Head tag Code --></head>
+<body>
+	<header class="bg-white fixed-top">			
+		<nav class="navbar navbar-light bg-white mb-0">
+			<div class="container justify-content-center justify-content-sm-between">	
+			  <a href="/" title="الأخيرة" class="navbar-brand mb-1">الأخيرة</a>
+			  			</div>			  
+		</nav>				
+	</header>
+	<main id="main" class="main">
+		<div class="container">  
+			<div class="row content">
+				<div class="col-md-12 my-2" align="center">
+					<div class="d-block p-4">
+	<center>
+		<!-- TOP BANNER ADS -->
+		<script type="text/javascript">
+	atOptions = {
+		'key' : 'ead02e30aa2e0a734ddf7a0055f5f8a0',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://basheighthnumerous.com/ead02e30aa2e0a734ddf7a0055f5f8a0/invoke.js"></scr' + 'ipt>');
+</script>
+	</center>
+</div>				</div>
+				<div class="col-md-9">
+					<div class="col-sm-12 p-2">
+							<h1>الخوارزميات في البرمجة</h1>
+
+	
+	<div class="navi text-center">
+					<p align="justify">ويجب أن تحتوي الخوارزمية دائما على نقطة توقف او نهاية واضحة. ولتقريب المعنى للأذهان يمكنك تشبيه الخوارزمية البرمجية بوصفة الطعام التي تصف المكونات المطلوبة الخطوات لكيفية تحضير الوجبة الموصوفة والنتائج فالخوارزمية هي الخطوات وتسمى المكونات. تعريف الخوارزميات فى البرمجة. <br>				
+			</p>
+										<a class="badge badge-dark" href="/%D8%A8%D9%8A%D9%88%D8%AA-%D9%85%D9%86-%D8%A7%D9%84%D8%AD%D8%AC%D8%B1-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A.html">بيوت من الحجر الطبيعي</a>
+											<a class="badge badge-info" href="/%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB-%D9%85%D8%AA%D8%AC%D8%B1-%D8%A8%D9%84%D8%A7%D9%8A-2020.html">تحديث متجر بلاي 2020</a>
+											<a class="badge badge-success" href="/%D8%A8%D9%88%D9%8A%D9%87-%D8%A8%D8%B1%D9%88%D9%81%D8%A7%D9%8A%D9%84-%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D9%87.html">بويه بروفايل خارجيه</a>
+											<a class="badge badge-dark" href="/%D8%A8%D9%88%D9%8A%D8%A7%D8%AA-%D8%A8%D8%B1%D9%88%D9%81%D8%A7%D9%8A%D9%84.html">بويات بروفايل</a>
+											<a class="badge badge-primary" href="/%D8%AA%D8%AD%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%B5%D9%88%D8%B1-%D8%A7%D9%84%D9%8A-bdf.html">تحويل الصور الي bdf</a>
+											<a class="badge badge-primary" href="/%D8%AA%D8%AD%D9%85%D9%8A%D9%84-%D9%84%D9%88%D8%AF%D9%88-%D8%B3%D8%AA%D8%A7%D8%B1-%D9%84%D9%84%D8%A7%D9%86%D8%AF%D8%B1%D9%88%D9%8A%D8%AF.html">تحميل لودو ستار للاندرويد</a>
+											<a class="badge badge-info" href="/%D8%A8%D8%B9%D8%B6-%D9%88%D8%B3%D8%A7%D8%A6%D9%84-%D8%A7%D9%84%D9%86%D8%AC%D8%A7%D8%AD-%D9%81%D9%8A-%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%A9.html">بعض وسائل النجاح في الحياة</a>
+											<a class="badge badge-light" href="/%D8%AA%D8%AD%D9%85%D9%8A%D9%84-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A9-%D9%85%D8%AC%D8%A7%D9%86%D9%8A-excel.html">تحميل برنامج محاسبة مجاني excel</a>
+						</div>
+	<div class="d-block p-4">
+	<center>
+		<!-- IN ARTICLE ADS -->
+		<script type="text/javascript">
+	atOptions = {
+		'key' : 'd68189c916cd86cf18e0ce3c74739aaf',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://basheighthnumerous.com/d68189c916cd86cf18e0ce3c74739aaf/invoke.js"></scr' + 'ipt>');
+</script>
+	</center>
+</div>					</div> 
+					<div class="col-sm-12">					
+						
+		
+	<div class="row">
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/736x/7a/ba/36/7aba36b120ca979c70a79b73f5ce7b83.jpg" data-lightbox="roadtrip" data-title="تحميل وقراءة افضل 3 كتب لتعلم خوارزميات البرمجة للمبتدئين بالعربية Books Learning Algorithm">
+											<img class="card-img v-image" src="https://i.pinimg.com/736x/7a/ba/36/7aba36b120ca979c70a79b73f5ce7b83.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlcTCJFJ_3Dzl1_TaOpKyZKRv9bLf6nFQEXg';" alt="تحميل وقراءة افضل 3 كتب لتعلم خوارزميات البرمجة للمبتدئين بالعربية Books Learning Algorithm">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">تحميل وقراءة افضل 3 كتب لتعلم خوارزميات البرمجة للمبتدئين بالعربية Books Learning Algorithm</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/28/ee/12/28ee12f0feed65cd8b301cb749af39d0.png" data-lightbox="roadtrip" data-title="حوحو أفضل ثلاث قنوات على اليوتيوب تعلمك خوارزميات البرمجة Blog Posts Blog Algorithm">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/28/ee/12/28ee12f0feed65cd8b301cb749af39d0.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzJgV1DvIZdu-ULxR94YNSw1JT8thwzeRuOA';" alt="حوحو أفضل ثلاث قنوات على اليوتيوب تعلمك خوارزميات البرمجة Blog Posts Blog Algorithm">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">حوحو أفضل ثلاث قنوات على اليوتيوب تعلمك خوارزميات البرمجة Blog Posts Blog Algorithm</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/bf/49/ef/bf49efe9738e8481e4258c88c7d59dbb.jpg" data-lightbox="roadtrip" data-title="Pin On تعلم البرمجة">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/bf/49/ef/bf49efe9738e8481e4258c88c7d59dbb.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcf_fLf99jtE9DD8FOhjYx3HoYHN0SEOv32A';" alt="Pin On تعلم البرمجة">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Pin On تعلم البرمجة</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/564x/d0/53/3c/d0533c6ab11cd11953c4873c7856e087.jpg" data-lightbox="roadtrip" data-title="Pin On تعلم البرمجة">
+											<img class="card-img v-image" src="https://i.pinimg.com/564x/d0/53/3c/d0533c6ab11cd11953c4873c7856e087.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyAQqTTPbHoNZ3LdpdHT4CTNEw6fRSL5rPiA';" alt="Pin On تعلم البرمجة">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Pin On تعلم البرمجة</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/f7/21/5b/f7215b52f1ae928dced35d33280acd19.jpg" data-lightbox="roadtrip" data-title="يهتم هذا التخصص بدراسة الحاسوب كآلة أو أداة مادية فع الة في حل الم شكلات وي عنى بتصميم الخوارزميات والبرامج وأنظمة الحاس Periodic Table Environment Weather">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/f7/21/5b/f7215b52f1ae928dced35d33280acd19.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTth3d7-J1nkoUlWJ95VLXgJ4sCtMZ00Poysw';" alt="يهتم هذا التخصص بدراسة الحاسوب كآلة أو أداة مادية فع الة في حل الم شكلات وي عنى بتصميم الخوارزميات والبرامج وأنظمة الحاس Periodic Table Environment Weather">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">يهتم هذا التخصص بدراسة الحاسوب كآلة أو أداة مادية فع الة في حل الم شكلات وي عنى بتصميم الخوارزميات والبرامج وأنظمة الحاس Periodic Table Environment Weather</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/564x/c4/f1/17/c4f117c524a3f09bf10029ebd52bda38.jpg" data-lightbox="roadtrip" data-title="Machine Learning Algorithms In Arabic خوارزميات تعلم الالة بالعربي Machine Learning Algorithm Learning">
+											<img class="card-img v-image" src="https://i.pinimg.com/564x/c4/f1/17/c4f117c524a3f09bf10029ebd52bda38.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Wqe9Kp-CTBqzHI6d7_L4TAGnbuc1D9IG7g';" alt="Machine Learning Algorithms In Arabic خوارزميات تعلم الالة بالعربي Machine Learning Algorithm Learning">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Machine Learning Algorithms In Arabic خوارزميات تعلم الالة بالعربي Machine Learning Algorithm Learning</h3>
+				</div>
+			</div>
+		</div>
+			 
+					<div class="col-12 mb-4">
+				<div class="card">
+										<img class="card-img-top v-cover" src="https://i.pinimg.com/736x/9c/ec/27/9cec27b1f883530288d0ab03d8f75bc4.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Wqe9Kp-CTBqzHI6d7_L4TAGnbuc1D9IG7g';" alt="Machine Learning Algorithms In Arabic خوارزميات تعلم الالة بالعربي Machine Learning Algorithm Learning">
+										<div class="card-body">
+						<h3 class="h5"><b>ما دور الخوارزميات في لغات البرمجة الآن سأنقلك لصلب الموضوع حسنا إذا أردت أن تحل مسألة معينة وتقوم بالتعبير عنها بلغة البرمجة التي تريدها ماذا تفعل.</b></h3>
+													<p class="p-2" align="justify">
+																	<strong>الخوارزميات في البرمجة</strong>. 
+								
+																	يعبر مفهوم الخوارزمية عن طريق عمل أو صيغة لحل المشكلات حيث تعتمد على تنفيذ متسلسة من الإجراءات المحددة وتعبر الخوازمية في الرياضيات وعلوم الحاسوب عن طريقة عمل صغيرة لحل المشاكل المتكررة ويمكن طرح جهاز الحاسوب كمثالا دقيقا على مفهوم الخوازمية. 
+																	الخوارزمية ببساطة هي مجموعة من الخطوات يتم تكرارها إلى أن يتحقق شرط يؤدي إلى النتيجة المطلوبة. 
+																	أريد تعلم الخوارزميات و لكنني لا أريد تعلم لغة جافا. 
+															</p>
+													<p class="p-2" align="justify">
+								
+																	شكل جمل الشرط بشكل عام. 
+																	تفاصيل الإدخال والإخراج يجب تحديدها بدقة كبيرة. 
+																	تعلم مبادئ البرمجة في فيديو حصري مجمع من أكاديمية برمجة بالعربي تابعنا ليصلك المزيد. 
+															</p>
+													<p class="p-2" align="justify">
+								
+																	إكتب خوارزمية للحصول على المتوسط الحسابي لرقمين وقم بطباعة. 
+																	يمكننا الآن تعريف الخوارزميات على انها مجموعة من الخطوات المصممة لاداء مهمة معينة والتى يمكن ان تكون مهمة بسيطة مثل حاصل ضرب رقمين او مهمة معقدة مثل تشغيل ملف فيديو مضغوط ومحركات البحث مثل جوجل تستخدم خوارزميات معقدة لاظهار نتائج البحث. 
+																	و التفكير وفق النمط الخوارزمي يجعلك تكتب أكواد بشكل أفضل بكثير حيث يجعل الكود أقصر وأسرع وأكثر متانة وأقل خطأ. 
+															</p>
+													<p class="p-2" align="justify">
+								
+																	شكرا للمتابعة ياريت ما تنسى اللايك اذا افادك الفيديو و أي استفسار اكتبه بالتعليقات. 
+																	كل خطوة في نظام الخوارزمية يجب أن تكون شديدة الوضوح وخالية من الغموض. 
+																	هذا أكثر سؤال كان يصلنا لأن أي شخص يدخل للدورة يقرأ أننا سنطبق الشرح على الحاسوب بلغة جافا فيظن أننا سنعلمه لغة جافا بحد ذاتها أو أننا سنعلمه خوارزميات خاصة فقط بلغة جافا. 
+															</p>
+													<p class="p-2" align="justify">
+								
+																	تعتبر الخوارزميات في البرمجة هي الأساس الذي تقوم عليه البرمجة بأكملها فهي الشيء الذي يبنى عليه كل مجال البرمجة بكل تفاصيله اللاحقة فلك أن تتخيل لو أنه لا يوجد خوارزميات مطلقا في الأمر إذن لن يكون هناك مجال برمجة مطلقا إضافة إلى أن مجال البرمجة يحتاج أن تتوفر فيه. 
+																	الأكثر انتشارا واستخداما تعتمد كما يوحي اسمها على ترتيب القوائم ذلك أن عمل الحاسب يقتضي تنظيم وترتيب العديد من القوائم واللوائح من. 
+																	الجمل المستخدمة في وضع الشروط هي. 
+															</p>
+													<p class="p-2" align="justify">
+								
+																	Pages Other Brand Software برمجة بالعربي Videos أنواع الخوارزميات في البرمجة. 
+																	على الرغم من عدم وجود إجماع رسمي على تعريف مناسب للـ خوارزمية فمن الممكن صياغة تعريف غير رسمي لها عن طريق اعتبارها مجموعة من القواعد التي تعبر عن سلسلة محددة من العمليات التي من شأنها أن تشمل جميع برامج الكمبيوتر بما في ذلك البرامج التي لا تجرى بها عمليات حسابية رقمية. 
+																	في مجال الحوسبة يكتب المبرمجون خوارزميات ترشد الكمبيوتر إلى كيفية أداء مهمة ما. 
+															</p>
+											</div> 
+				</div>
+			</div>
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/35/e4/42/35e4429f7542cfde7392dac8472ca88d.jpg" data-lightbox="roadtrip" data-title="Pin By Ultrasdz Corder On البرمجة في الجزائر In 2021 Memes Ecard Meme Ecards">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/35/e4/42/35e4429f7542cfde7392dac8472ca88d.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUsOBuSY9-ZoiDgbInnsXjHsRGw2STbLjFxw';" alt="Pin By Ultrasdz Corder On البرمجة في الجزائر In 2021 Memes Ecard Meme Ecards">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Pin By Ultrasdz Corder On البرمجة في الجزائر In 2021 Memes Ecard Meme Ecards</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/68/19/89/68198943515fed79e145111f2e4dcecd.png" data-lightbox="roadtrip" data-title="أفضل المواقع التفاعلية لتعلم البرمجة عن طريق حل المشاكل أكوا ويب Incoming Call Screenshot Blog Posts Incoming Call">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/68/19/89/68198943515fed79e145111f2e4dcecd.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1IO-cIMNa9csj5veOYi_tU96zL_89u5VrZw';" alt="أفضل المواقع التفاعلية لتعلم البرمجة عن طريق حل المشاكل أكوا ويب Incoming Call Screenshot Blog Posts Incoming Call">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">أفضل المواقع التفاعلية لتعلم البرمجة عن طريق حل المشاكل أكوا ويب Incoming Call Screenshot Blog Posts Incoming Call</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/736x/5e/7b/45/5e7b45e884c1a9e7cd7ce79f839be8a4.jpg" data-lightbox="roadtrip" data-title="تذكر دائما ان البرمجة تفكير و تحليل و ليس نقل و كتابة تابعنا دائما على موقعنا Math Math Equations">
+											<img class="card-img v-image" src="https://i.pinimg.com/736x/5e/7b/45/5e7b45e884c1a9e7cd7ce79f839be8a4.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxxrkMNuP3mjE1exBRp_1KL94Y4ZVEmIL7_w';" alt="تذكر دائما ان البرمجة تفكير و تحليل و ليس نقل و كتابة تابعنا دائما على موقعنا Math Math Equations">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">تذكر دائما ان البرمجة تفكير و تحليل و ليس نقل و كتابة تابعنا دائما على موقعنا Math Math Equations</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/a3/71/26/a371269e356d6d5e97254d0d53a5c53f.jpg" data-lightbox="roadtrip" data-title="البحر الشاسع لدخول الخوارزميات من بابها الواسع Good Books Arabic Books Book Club Books">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/a3/71/26/a371269e356d6d5e97254d0d53a5c53f.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmyOqdJ22O_b5BFgFf4IQvEBcxIhss3mj9gw';" alt="البحر الشاسع لدخول الخوارزميات من بابها الواسع Good Books Arabic Books Book Club Books">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">البحر الشاسع لدخول الخوارزميات من بابها الواسع Good Books Arabic Books Book Club Books</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/86/1b/d2/861bd29f2aa49126de8326f37bba2a7e.png" data-lightbox="roadtrip" data-title="موقع لتشغيل وتجربة الأكواد البرمجية أون لاين أزيد من 60 لغة برمجة اللغات التي يمكنك تجريبها داخل الموقع Java Java Mysql Jsp C Cloju Cobol Basic Language">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/86/1b/d2/861bd29f2aa49126de8326f37bba2a7e.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNcp-XqHyvDvJaYUKlCixUKsXmMk3Isu6p_g';" alt="موقع لتشغيل وتجربة الأكواد البرمجية أون لاين أزيد من 60 لغة برمجة اللغات التي يمكنك تجريبها داخل الموقع Java Java Mysql Jsp C Cloju Cobol Basic Language">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">موقع لتشغيل وتجربة الأكواد البرمجية أون لاين أزيد من 60 لغة برمجة اللغات التي يمكنك تجريبها داخل الموقع Java Java Mysql Jsp C Cloju Cobol Basic Language</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/2c/6a/be/2c6abe788f39ca8e00a020b6139914f4.png" data-lightbox="roadtrip" data-title="كتاب شامل لتعلم الخوارزميات و هياكل البيانات إن هيكلة أو بنية البيانات هي طريقة خاصة لتخزين وتنظيم البيانات في الكمبيوتر بحيث Data Structures Algorithm Books">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/2c/6a/be/2c6abe788f39ca8e00a020b6139914f4.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlvZet9V8OvQ7YbR-I0u-HyFFIj0qQNOvUpw';" alt="كتاب شامل لتعلم الخوارزميات و هياكل البيانات إن هيكلة أو بنية البيانات هي طريقة خاصة لتخزين وتنظيم البيانات في الكمبيوتر بحيث Data Structures Algorithm Books">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">كتاب شامل لتعلم الخوارزميات و هياكل البيانات إن هيكلة أو بنية البيانات هي طريقة خاصة لتخزين وتنظيم البيانات في الكمبيوتر بحيث Data Structures Algorithm Books</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/61/00/5b/61005bb3830c135af5b2168a715c2b98.png" data-lightbox="roadtrip" data-title="تمرين تخمين تعلم البايثون المستوى الثاني تعلم البرمجة في الجزائر Movie Posters Movies Poster">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/61/00/5b/61005bb3830c135af5b2168a715c2b98.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_k7fKDLDb1G54CaMblpXFnfjO6DkfeTKGqg';" alt="تمرين تخمين تعلم البايثون المستوى الثاني تعلم البرمجة في الجزائر Movie Posters Movies Poster">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">تمرين تخمين تعلم البايثون المستوى الثاني تعلم البرمجة في الجزائر Movie Posters Movies Poster</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/2b/11/0b/2b110b8cf78cfe18fc50f284862263a8.png" data-lightbox="roadtrip" data-title="قاموس مصطلحات برمجية للمتخصصين في علم برمجيات الحاسب مبرمجين باحثين مدربين طلاب مصطلحات برمجية م Project Management Templates Project Management Math">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/2b/11/0b/2b110b8cf78cfe18fc50f284862263a8.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXn1BlmyNvcOf9gR0nj38qbFxHWVH1ygZaPg';" alt="قاموس مصطلحات برمجية للمتخصصين في علم برمجيات الحاسب مبرمجين باحثين مدربين طلاب مصطلحات برمجية م Project Management Templates Project Management Math">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">قاموس مصطلحات برمجية للمتخصصين في علم برمجيات الحاسب مبرمجين باحثين مدربين طلاب مصطلحات برمجية م Project Management Templates Project Management Math</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/cd/0c/76/cd0c76b6638e9e4b1fa15e54f9345be4.png" data-lightbox="roadtrip" data-title="Pin By Bayan Alomari On Mawa9i3 Programming Apps Learning Websites Application Iphone">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/cd/0c/76/cd0c76b6638e9e4b1fa15e54f9345be4.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy1mb6QSshLfeFyFqPSdVlIEKlYDqo3Uo2QQ';" alt="Pin By Bayan Alomari On Mawa9i3 Programming Apps Learning Websites Application Iphone">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Pin By Bayan Alomari On Mawa9i3 Programming Apps Learning Websites Application Iphone</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/61/8a/0b/618a0bc8872f05c23cfa24f63e5c29b5.png" data-lightbox="roadtrip" data-title="دورة لغة البرمجة C البرمجة في الجزائر Movie Posters Movies Poster">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/61/8a/0b/618a0bc8872f05c23cfa24f63e5c29b5.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVx7eIdmMrgLBCoYDFfwaiEOoD7k6x_lPqVQ';" alt="دورة لغة البرمجة C البرمجة في الجزائر Movie Posters Movies Poster">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">دورة لغة البرمجة C البرمجة في الجزائر Movie Posters Movies Poster</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/bf/85/71/bf85718d526232d410c076e54cb3cfa4.jpg" data-lightbox="roadtrip" data-title="يجب أن نتتبع ذلك دائم ا لأن غوغل تعمل على تحديث خوارزمية البحث آلاف المرات في السنة يمكن أن يساعد تغيير خوا Digital Marketing Marketing Information Technology">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/bf/85/71/bf85718d526232d410c076e54cb3cfa4.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIJupHZ1zB8WkBvI-3SUTYaDMdhVYUaQfGjQ';" alt="يجب أن نتتبع ذلك دائم ا لأن غوغل تعمل على تحديث خوارزمية البحث آلاف المرات في السنة يمكن أن يساعد تغيير خوا Digital Marketing Marketing Information Technology">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">يجب أن نتتبع ذلك دائم ا لأن غوغل تعمل على تحديث خوارزمية البحث آلاف المرات في السنة يمكن أن يساعد تغيير خوا Digital Marketing Marketing Information Technology</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/4c/0d/d0/4c0dd009f167aba35c01957facf58e5c.jpg" data-lightbox="roadtrip" data-title="Pin On Rofofsbooks">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/4c/0d/d0/4c0dd009f167aba35c01957facf58e5c.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMr-ibxhZZqFlWw1GNSf6pFGqIZV-QudzHXw';" alt="Pin On Rofofsbooks">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Pin On Rofofsbooks</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/b2/59/cb/b259cb53ee3627a6289c9813f9eefef2.jpg" data-lightbox="roadtrip" data-title="Pin On تعلم البرمجة">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/b2/59/cb/b259cb53ee3627a6289c9813f9eefef2.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUXXneaG_4rk4j9vlL-iNTMw4AlyzWWITqvg';" alt="Pin On تعلم البرمجة">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Pin On تعلم البرمجة</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/7c/12/d0/7c12d07f2fb28d1995812a0a56bf71d0.jpg" data-lightbox="roadtrip" data-title="فن ﺍﻟﻼﻣﺒﺎﻻﺓ ﻟﻌﻴﺶ ﺣﻴﺎﺓ ﺗﺨﺎﻟﻒ ﺍﻟﻤﺄﻟﻮﻑ ﻫﻮ ﻛﺘﺎﺏ أكثر من مذهل ﻓﻲ مجال ﺍﻟﺘﻨﻤﻴﺔ ﺍﻟﺒﺸﺮﻳﺔ ﻟﻠﻤﺆﻟﻒ ﺍﻟﻌﺎﻟﻤﻲ المشهور بمؤلفاته الكبيرة ﻣﺎﺭﻙ ﻣﺎﻧﺴﻮﻥ رابط ال Giving">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/7c/12/d0/7c12d07f2fb28d1995812a0a56bf71d0.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfAiNbGRa7ZXAXAX__0h-eVhpGFIKYpwzfDw';" alt="فن ﺍﻟﻼﻣﺒﺎﻻﺓ ﻟﻌﻴﺶ ﺣﻴﺎﺓ ﺗﺨﺎﻟﻒ ﺍﻟﻤﺄﻟﻮﻑ ﻫﻮ ﻛﺘﺎﺏ أكثر من مذهل ﻓﻲ مجال ﺍﻟﺘﻨﻤﻴﺔ ﺍﻟﺒﺸﺮﻳﺔ ﻟﻠﻤﺆﻟﻒ ﺍﻟﻌﺎﻟﻤﻲ المشهور بمؤلفاته الكبيرة ﻣﺎﺭﻙ ﻣﺎﻧﺴﻮﻥ رابط ال Giving">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">فن ﺍﻟﻼﻣﺒﺎﻻﺓ ﻟﻌﻴﺶ ﺣﻴﺎﺓ ﺗﺨﺎﻟﻒ ﺍﻟﻤﺄﻟﻮﻑ ﻫﻮ ﻛﺘﺎﺏ أكثر من مذهل ﻓﻲ مجال ﺍﻟﺘﻨﻤﻴﺔ ﺍﻟﺒﺸﺮﻳﺔ ﻟﻠﻤﺆﻟﻒ ﺍﻟﻌﺎﻟﻤﻲ المشهور بمؤلفاته الكبيرة ﻣﺎﺭﻙ ﻣﺎﻧﺴﻮﻥ رابط ال Giving</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/474x/84/af/96/84af96f64fff37e00dd870cbcb90c15c.jpg" data-lightbox="roadtrip" data-title="Pin By منوعات مفيدة On مواقع Learning Websites Programming Apps Computer Learning">
+											<img class="card-img v-image" src="https://i.pinimg.com/474x/84/af/96/84af96f64fff37e00dd870cbcb90c15c.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8sDHSk5I-F3Gl0o0MdCm95o3C_2H1nytm3w';" alt="Pin By منوعات مفيدة On مواقع Learning Websites Programming Apps Computer Learning">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Pin By منوعات مفيدة On مواقع Learning Websites Programming Apps Computer Learning</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/7b/48/da/7b48da558341a81e23f07ab238f31b1e.jpg" data-lightbox="roadtrip" data-title="Pin By Ultrasdz Corder On البرمجة في الجزائر Neon Signs Signs Neon">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/7b/48/da/7b48da558341a81e23f07ab238f31b1e.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3u_OlYB__ZoIeo8FebiQwX5zhVCmJbD_5gA';" alt="Pin By Ultrasdz Corder On البرمجة في الجزائر Neon Signs Signs Neon">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Pin By Ultrasdz Corder On البرمجة في الجزائر Neon Signs Signs Neon</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/0c/15/7e/0c157e57edca9f32be112cf94a04e640.jpg" data-lightbox="roadtrip" data-title="تعلم الآلة والذكاء الاصطناعي وأمثلة بلغة بايثون بالعربي Machine Learning In Arabic Introduction To Machine Learning Machine Learning Learn Programming">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/0c/15/7e/0c157e57edca9f32be112cf94a04e640.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToA9CPTiJLsIzFxnmzG3PSEP6Km1Ie1QlTiA';" alt="تعلم الآلة والذكاء الاصطناعي وأمثلة بلغة بايثون بالعربي Machine Learning In Arabic Introduction To Machine Learning Machine Learning Learn Programming">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">تعلم الآلة والذكاء الاصطناعي وأمثلة بلغة بايثون بالعربي Machine Learning In Arabic Introduction To Machine Learning Machine Learning Learn Programming</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/c0/e9/ad/c0e9adde257750991b5ede69a6dbc28d.png" data-lightbox="roadtrip" data-title="وظائف خالية للسعوديين فقط جامعة الامام محمد بن سعود الاسلامية ملتقى السعودية Pinit Shopping">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/c0/e9/ad/c0e9adde257750991b5ede69a6dbc28d.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdANUIQIzYEcItCHRCJzGfeIrGMPUTZ9RvsQ';" alt="وظائف خالية للسعوديين فقط جامعة الامام محمد بن سعود الاسلامية ملتقى السعودية Pinit Shopping">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">وظائف خالية للسعوديين فقط جامعة الامام محمد بن سعود الاسلامية ملتقى السعودية Pinit Shopping</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/736x/de/3a/8f/de3a8f1aa29ce25b44f43c09be57b3a2.jpg" data-lightbox="roadtrip" data-title="تحميل كتاب تعلم برمجة الاندرويد استوديو ببساطة Pdf Learning Personal Care Care">
+											<img class="card-img v-image" src="https://i.pinimg.com/736x/de/3a/8f/de3a8f1aa29ce25b44f43c09be57b3a2.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST9RU6A2Snd07MqQs-gbcyto5STRsiYAvylQ';" alt="تحميل كتاب تعلم برمجة الاندرويد استوديو ببساطة Pdf Learning Personal Care Care">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">تحميل كتاب تعلم برمجة الاندرويد استوديو ببساطة Pdf Learning Personal Care Care</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/564x/b6/24/ee/b624ee24a5f2aac0c33b7de715873a5b.jpg" data-lightbox="roadtrip" data-title="تجميعة خمس سنين محاضرات وكورسات ودروات كاااااااااااملة فى البرمجة والشبكات والحاسب الآلى واللغة موسوعة الدورات التعليمية Lean Machine Web Design Free Courses">
+											<img class="card-img v-image" src="https://i.pinimg.com/564x/b6/24/ee/b624ee24a5f2aac0c33b7de715873a5b.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMvamhSMoKppROpU7saQc8P6UAUKDkcE6v8w';" alt="تجميعة خمس سنين محاضرات وكورسات ودروات كاااااااااااملة فى البرمجة والشبكات والحاسب الآلى واللغة موسوعة الدورات التعليمية Lean Machine Web Design Free Courses">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">تجميعة خمس سنين محاضرات وكورسات ودروات كاااااااااااملة فى البرمجة والشبكات والحاسب الآلى واللغة موسوعة الدورات التعليمية Lean Machine Web Design Free Courses</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/b9/17/ee/b917ee310770320069e8071519433548.png" data-lightbox="roadtrip" data-title="كيف تقوم بملأ خيار البلد Country بشكل تلقائي أثناء برمجة Form Http Www Aqweeb Com 2019 06 Automate Country Fill Tech Company Logos Company Logo Bar Chart">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/b9/17/ee/b917ee310770320069e8071519433548.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStSe8YNnx3oYBVyQz8CZLGSvktVkOP13puBQ';" alt="كيف تقوم بملأ خيار البلد Country بشكل تلقائي أثناء برمجة Form Http Www Aqweeb Com 2019 06 Automate Country Fill Tech Company Logos Company Logo Bar Chart">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">كيف تقوم بملأ خيار البلد Country بشكل تلقائي أثناء برمجة Form Http Www Aqweeb Com 2019 06 Automate Country Fill Tech Company Logos Company Logo Bar Chart</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/74/d8/29/74d8298fd144512c9fc3968bc89d14b0.png" data-lightbox="roadtrip" data-title="تحميل كتاب البرمجة بلغة البايثون Pink Python Map Map Screenshot">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/74/d8/29/74d8298fd144512c9fc3968bc89d14b0.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_31HcHbUywzp6SQOxNvChs8nY7Bhs6LLB8g';" alt="تحميل كتاب البرمجة بلغة البايثون Pink Python Map Map Screenshot">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">تحميل كتاب البرمجة بلغة البايثون Pink Python Map Map Screenshot</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/474x/f2/d4/de/f2d4de65aba4b94983088cee08da48a7.jpg" data-lightbox="roadtrip" data-title="تحميل و قراءة رواية الخيميائي لباولو كويلو مع ملخص Pdf Calm Artwork Novels Keep Calm Artwork">
+											<img class="card-img v-image" src="https://i.pinimg.com/474x/f2/d4/de/f2d4de65aba4b94983088cee08da48a7.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkEJbJff2780RCxrIHMs7aRrBjDqN2NU7qxQ';" alt="تحميل و قراءة رواية الخيميائي لباولو كويلو مع ملخص Pdf Calm Artwork Novels Keep Calm Artwork">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">تحميل و قراءة رواية الخيميائي لباولو كويلو مع ملخص Pdf Calm Artwork Novels Keep Calm Artwork</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/736x/0e/01/e0/0e01e0588537a758a111a9c4eb7e98ec.jpg" data-lightbox="roadtrip" data-title="10 كتب مهمة لكل مبرمج تقدر تحملهم وتخليهم عندك وتبدا تقرا وتتعلم Up Theme Lockscreen Theme">
+											<img class="card-img v-image" src="https://i.pinimg.com/736x/0e/01/e0/0e01e0588537a758a111a9c4eb7e98ec.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1FOuXCIaEgtM56JEj2vTCzwqHQSNqz0--WA';" alt="10 كتب مهمة لكل مبرمج تقدر تحملهم وتخليهم عندك وتبدا تقرا وتتعلم Up Theme Lockscreen Theme">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">10 كتب مهمة لكل مبرمج تقدر تحملهم وتخليهم عندك وتبدا تقرا وتتعلم Up Theme Lockscreen Theme</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/6f/fd/a9/6ffda93d2b0d2479826031ea89add313.jpg" data-lightbox="roadtrip" data-title="Pin By Ultrasdz Corder On مواضيع تقنية Company Logo Vimeo Logo Tech Company Logos">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/6f/fd/a9/6ffda93d2b0d2479826031ea89add313.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQj_uwlVdAXsDo4lLXksvGfN2Xnk3fxYAPvQ';" alt="Pin By Ultrasdz Corder On مواضيع تقنية Company Logo Vimeo Logo Tech Company Logos">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Pin By Ultrasdz Corder On مواضيع تقنية Company Logo Vimeo Logo Tech Company Logos</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/564x/3f/4c/1a/3f4c1ab3eb0a92f4909c2c0448d72968.jpg" data-lightbox="roadtrip" data-title="أقوى مصادر حديثة وقوية فى الخوارزميات Algorithms عربى وإنجليزى Pdf Cloud Computing Big Data Clouds">
+											<img class="card-img v-image" src="https://i.pinimg.com/564x/3f/4c/1a/3f4c1ab3eb0a92f4909c2c0448d72968.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaFTc6DvfAsthSheZ6-r3n5SupdMNj06rRpw';" alt="أقوى مصادر حديثة وقوية فى الخوارزميات Algorithms عربى وإنجليزى Pdf Cloud Computing Big Data Clouds">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">أقوى مصادر حديثة وقوية فى الخوارزميات Algorithms عربى وإنجليزى Pdf Cloud Computing Big Data Clouds</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/736x/9c/ec/27/9cec27b1f883530288d0ab03d8f75bc4.jpg" data-lightbox="roadtrip" data-title="Pin By Ultrasdz Corder On البرمجة في الجزائر Ecard Meme Memes Ecards">
+											<img class="card-img v-image" src="https://i.pinimg.com/736x/9c/ec/27/9cec27b1f883530288d0ab03d8f75bc4.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkA9Gspscug3QEF7wkDWJD4rQy34YPsWgqfQ';" alt="Pin By Ultrasdz Corder On البرمجة في الجزائر Ecard Meme Memes Ecards">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Pin By Ultrasdz Corder On البرمجة في الجزائر Ecard Meme Memes Ecards</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/cc/79/7d/cc797db8a858a97760ed9dddad6c984a.jpg" data-lightbox="roadtrip" data-title="Pin By Ultrasdz Corder On البرمجة في الجزائر Movie Posters Movies Poster">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/cc/79/7d/cc797db8a858a97760ed9dddad6c984a.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTrAU55lT70BWXTAD_5_LKgOPR0G4CtDby1Q';" alt="Pin By Ultrasdz Corder On البرمجة في الجزائر Movie Posters Movies Poster">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Pin By Ultrasdz Corder On البرمجة في الجزائر Movie Posters Movies Poster</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/236x/39/a1/64/39a1643bf531198ebc57239e807feb9c.jpg" data-lightbox="roadtrip" data-title="كتاب البرمجة الرياضية Pdf Pdf Books Reading Pdf Books Pdf Books Download">
+											<img class="card-img v-image" src="https://i.pinimg.com/236x/39/a1/64/39a1643bf531198ebc57239e807feb9c.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNPFadnRYS1gCHZGXTdRLc-auxWBBSB_ZIXw';" alt="كتاب البرمجة الرياضية Pdf Pdf Books Reading Pdf Books Pdf Books Download">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">كتاب البرمجة الرياضية Pdf Pdf Books Reading Pdf Books Pdf Books Download</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/14/cc/4f/14cc4fb89623eef07330abb2bc4835d1.png" data-lightbox="roadtrip" data-title="عرب فايرز كاشف حرارة معنون فاير جلاس للبيع Addressable Heat Detector Fireclass Fc460h Heat Detectors New Class Detector">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/14/cc/4f/14cc4fb89623eef07330abb2bc4835d1.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6yUeHNc9DRFwpsv7Np-uIs4A-Effbo3Oe1g';" alt="عرب فايرز كاشف حرارة معنون فاير جلاس للبيع Addressable Heat Detector Fireclass Fc460h Heat Detectors New Class Detector">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">عرب فايرز كاشف حرارة معنون فاير جلاس للبيع Addressable Heat Detector Fireclass Fc460h Heat Detectors New Class Detector</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/564x/d3/52/30/d352309e1e84116240e3753f9966e4b0.jpg" data-lightbox="roadtrip" data-title="تجميعة خمس سنين محاضرات وكورسات ودروات كاااااااااااملة فى البرمجة والشبكات والحاسب الآلى واللغة موسوعة الدورات التعليمية Full Tutorials Tutorial Free Courses">
+											<img class="card-img v-image" src="https://i.pinimg.com/564x/d3/52/30/d352309e1e84116240e3753f9966e4b0.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKot7_TSGyaSPk2iaVL6Uq5HlRR4A3QzUTcw';" alt="تجميعة خمس سنين محاضرات وكورسات ودروات كاااااااااااملة فى البرمجة والشبكات والحاسب الآلى واللغة موسوعة الدورات التعليمية Full Tutorials Tutorial Free Courses">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">تجميعة خمس سنين محاضرات وكورسات ودروات كاااااااااااملة فى البرمجة والشبكات والحاسب الآلى واللغة موسوعة الدورات التعليمية Full Tutorials Tutorial Free Courses</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/474x/62/c9/4b/62c94babd9c5fd8bfa7d2a15732ef826.jpg" data-lightbox="roadtrip" data-title="Pin By Ultrasdz Corder On البرمجة في الجزائر In 2021 Ecard Meme Memes Ecards">
+											<img class="card-img v-image" src="https://i.pinimg.com/474x/62/c9/4b/62c94babd9c5fd8bfa7d2a15732ef826.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX_gBSths6_Mkn-EsvGOlWLJwwmhZPldUwkw';" alt="Pin By Ultrasdz Corder On البرمجة في الجزائر In 2021 Ecard Meme Memes Ecards">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Pin By Ultrasdz Corder On البرمجة في الجزائر In 2021 Ecard Meme Memes Ecards</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/474x/ea/03/a4/ea03a4aa59c79f93eb3aea908796a880.jpg" data-lightbox="roadtrip" data-title="تحميل كتاب تعلم الاختراق بلغة بايثون من الصفر Black Hat Python Pdf Python Programming Black Hat">
+											<img class="card-img v-image" src="https://i.pinimg.com/474x/ea/03/a4/ea03a4aa59c79f93eb3aea908796a880.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW4TVbNF5AgKc6RV2jxMeBNLwW46E9TUrFCQ';" alt="تحميل كتاب تعلم الاختراق بلغة بايثون من الصفر Black Hat Python Pdf Python Programming Black Hat">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">تحميل كتاب تعلم الاختراق بلغة بايثون من الصفر Black Hat Python Pdf Python Programming Black Hat</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/d0/93/14/d09314cd61a79e7fb8d0ca6028c04785.jpg" data-lightbox="roadtrip" data-title="Pin On Graphic">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/d0/93/14/d09314cd61a79e7fb8d0ca6028c04785.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_52dKGXQrDULVTTgHNzThefUWiDcic0ek7Q';" alt="Pin On Graphic">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Pin On Graphic</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/564x/2a/93/ac/2a93ac05635eee1f55a60ec6ce2560cc.jpg" data-lightbox="roadtrip" data-title="Pin On تعلم البرمجة">
+											<img class="card-img v-image" src="https://i.pinimg.com/564x/2a/93/ac/2a93ac05635eee1f55a60ec6ce2560cc.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHqHFwsBJ27mWl0_ORrBYDOtaGJTic4ElbaA';" alt="Pin On تعلم البرمجة">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Pin On تعلم البرمجة</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/27/7d/41/277d414058528b7ac7194c9aff58e2b9.jpg" data-lightbox="roadtrip" data-title="Bahrain Complex مجمع البحرين من الفنيقية إلى العربية تأليف أحمد شحلان Free Download Borrow And Streaming Internet Archive Arabic Books Internet Archive Blog">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/27/7d/41/277d414058528b7ac7194c9aff58e2b9.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBVqMfJGaUdT9ryL0tqfIwOs3hXfgjeuHf9g';" alt="Bahrain Complex مجمع البحرين من الفنيقية إلى العربية تأليف أحمد شحلان Free Download Borrow And Streaming Internet Archive Arabic Books Internet Archive Blog">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Bahrain Complex مجمع البحرين من الفنيقية إلى العربية تأليف أحمد شحلان Free Download Borrow And Streaming Internet Archive Arabic Books Internet Archive Blog</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/51/4d/02/514d02eb6a7e3eebc6e750bf1c45b0cf.png" data-lightbox="roadtrip" data-title="Encyclopedia Of Programs المكتبة الشاملة العربية فى شرح البرمجة بلغة البايثون من البداية وحتى الإحتراف Library">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/51/4d/02/514d02eb6a7e3eebc6e750bf1c45b0cf.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQGjYOw-F4E6RIkYB4aeJlvLx0fxs4uPEm5g';" alt="Encyclopedia Of Programs المكتبة الشاملة العربية فى شرح البرمجة بلغة البايثون من البداية وحتى الإحتراف Library">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Encyclopedia Of Programs المكتبة الشاملة العربية فى شرح البرمجة بلغة البايثون من البداية وحتى الإحتراف Library</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/56/05/d5/5605d565a21dd9491fa519b00d9733d7.gif" data-lightbox="roadtrip" data-title="Pin On Test Management">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/56/05/d5/5605d565a21dd9491fa519b00d9733d7.gif" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQqCUfYhWvqHzu0u6RAivbjKsMbZXr6kEpYg';" alt="Pin On Test Management">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Pin On Test Management</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/b6/11/71/b61171a3e1d62a090d1738fd50afb034.jpg" data-lightbox="roadtrip" data-title="تمرين تأكيد الباسورد تعلم البايثون المستوى الثاني تعلم البرمجة في الجزائر">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/b6/11/71/b61171a3e1d62a090d1738fd50afb034.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVldm5TAXTJjDdoZ2ojacdY1l3LWPpRQbSMQ';" alt="تمرين تأكيد الباسورد تعلم البايثون المستوى الثاني تعلم البرمجة في الجزائر">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">تمرين تأكيد الباسورد تعلم البايثون المستوى الثاني تعلم البرمجة في الجزائر</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/474x/45/51/b3/4551b35e1425fb65cd486e3d70d898fa.jpg" data-lightbox="roadtrip" data-title="Beat Find Music Recognition V1 3 2 Premium Music Recognition Find Music Recognition">
+											<img class="card-img v-image" src="https://i.pinimg.com/474x/45/51/b3/4551b35e1425fb65cd486e3d70d898fa.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWck7NWyP6SjBBQDiIFbX91rBL-h1jaWDiwg';" alt="Beat Find Music Recognition V1 3 2 Premium Music Recognition Find Music Recognition">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Beat Find Music Recognition V1 3 2 Premium Music Recognition Find Music Recognition</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/2d/ac/28/2dac28dd0a8f231b80dc158bf02542b2.png" data-lightbox="roadtrip" data-title="Encyclopedia Of Programs مكتبة ذاخرة بالماتريال باللغة العربية فى علوم الذكاء الصناعى و Deep Learning وartificial Intelli Deep Learning Learning Encyclopedia">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/2d/ac/28/2dac28dd0a8f231b80dc158bf02542b2.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Ib9ui-9BquXa7MXxoQY16wN-xhnIaxx4ug';" alt="Encyclopedia Of Programs مكتبة ذاخرة بالماتريال باللغة العربية فى علوم الذكاء الصناعى و Deep Learning وartificial Intelli Deep Learning Learning Encyclopedia">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Encyclopedia Of Programs مكتبة ذاخرة بالماتريال باللغة العربية فى علوم الذكاء الصناعى و Deep Learning وartificial Intelli Deep Learning Learning Encyclopedia</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/564x/7f/a6/98/7fa698e19603b6e091a83035c0162176.jpg" data-lightbox="roadtrip" data-title="تحميل وقراءة رواية الحب في زمن الكوليرا للكاتب غابرييل غارسيا ماركيز بالعربية Pdf Book Cover Books Cover">
+											<img class="card-img v-image" src="https://i.pinimg.com/564x/7f/a6/98/7fa698e19603b6e091a83035c0162176.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu3WzikcAkfaq3q68iDdJe7vfzv1a_sx5F1Q';" alt="تحميل وقراءة رواية الحب في زمن الكوليرا للكاتب غابرييل غارسيا ماركيز بالعربية Pdf Book Cover Books Cover">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">تحميل وقراءة رواية الحب في زمن الكوليرا للكاتب غابرييل غارسيا ماركيز بالعربية Pdf Book Cover Books Cover</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+		</div>
+				<div class="clearfix"></div> 
+		<div class="d-block mt-4 p-3">
+			Source : <a href="https://pinterest.com" rel="nofollow noopener">pinterest.com</a>
+		</div>
+						</div>
+				</div> 
+				<div class="col-md-3">
+					<div class="col-sm-12 widget">
+						<h3 class="widget-title">Random Posts</h3>
+						<ul class="list-group">
+													<li class="list-group-item"><a href="/%D8%A7%D8%B4%D9%83%D8%A7%D9%84-%D9%88%D8%A7%D8%AC%D9%87%D8%A7%D8%AA-%D9%83%D9%84%D8%A7%D8%AF%D9%8A%D9%86%D8%AC.html">اشكال واجهات كلادينج</a></li>
+													<li class="list-group-item"><a href="/%D8%A7%D8%B3%D9%85%D8%A7%D8%A1-%D9%83%D8%A7%D9%81%D9%8A%D9%87%D8%A7%D8%AA.html">اسماء كافيهات</a></li>
+													<li class="list-group-item"><a href="/%D8%A7%D8%B1%D9%82%D8%A7%D9%85-%D8%B4%D8%B1%D9%83%D8%A7%D8%AA-%D8%B3%D8%B9%D9%88%D8%AF%D9%87-%D8%A8%D8%AF%D9%88%D9%86-%D8%AF%D9%88%D8%A7%D9%85-%D8%A8%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6.html">ارقام شركات سعوده بدون دوام بالرياض</a></li>
+													<li class="list-group-item"><a href="/%D8%A7%D8%B3%D9%85%D8%A7%D8%A1-%D9%85%D8%AD%D9%84%D8%A7%D8%AA.html">اسماء محلات</a></li>
+													<li class="list-group-item"><a href="/%D8%A7%D8%B9%D8%B8%D9%85-%D8%AF%D8%B9%D8%A7%D8%A1-%D8%B9%D9%86%D8%AF-%D8%A7%D9%84%D9%84%D9%87.html">اعظم دعاء عند الله</a></li>
+													<li class="list-group-item"><a href="/%D8%A7%D8%B1%D8%B4%D9%81%D8%A9-%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9.html">ارشفة الكترونية</a></li>
+													<li class="list-group-item"><a href="/%D8%A7%D8%B4%D9%83%D8%A7%D9%84-%D8%B1%D8%B3%D8%A7%D8%A6%D9%84-%D9%88%D8%B1%D9%82%D9%8A%D9%87.html">اشكال رسائل ورقيه</a></li>
+													<li class="list-group-item"><a href="/%D8%A7%D8%BA%D9%86%D9%8A%D8%A9-%D8%B3%D9%84%D8%A7%D9%85-%D8%B9%D9%84%D9%8A%D9%83%D9%85.html">اغنية سلام عليكم</a></li>
+													<li class="list-group-item"><a href="/%D8%A7%D8%B1%D8%AE%D8%B5-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%AA%D9%88%D8%B5%D9%8A%D9%84-%D9%85%D8%B4%D8%A7%D9%88%D9%8A%D8%B1.html">ارخص تطبيق توصيل مشاوير</a></li>
+													<li class="list-group-item"><a href="/%D8%A7%D8%B7%D8%A7%D8%B1%D8%A7%D8%AA-%D9%84%D9%84%D9%83%D8%AA%D8%A7%D8%A8%D8%A9.html">اطارات للكتابة</a></li>
+													<li class="list-group-item"><a href="/%D8%A7%D8%BA%D9%86%D9%8A%D8%A9-abc-%D8%A8%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9.html">اغنية Abc بالانجليزية</a></li>
+													<li class="list-group-item"><a href="/%D8%A7%D8%B4%D9%83%D8%A7%D9%84-%D9%87%D9%86%D8%AF%D8%B3%D9%8A%D9%87.html">اشكال هندسيه</a></li>
+													<li class="list-group-item"><a href="/%D8%A7%D8%B3%D8%B1%D8%A7%D8%B1-%D8%A8%D9%8A%D8%AC%D9%88-%D9%84%D8%A7%D9%8A%D9%81.html">اسرار بيجو لايف</a></li>
+													<li class="list-group-item"><a href="/%D8%A7%D8%B7%D8%A7%D8%B1-%D9%85%D8%B2%D8%AE%D8%B1%D9%81-%D9%84%D9%84%D9%83%D8%AA%D8%A7%D8%A8%D8%A9.html">اطار مزخرف للكتابة</a></li>
+													<li class="list-group-item"><a href="/%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B1-%D8%A7%D9%84%D8%A7%D9%8A%D8%A7%D9%85-%D8%A8%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A.html">اختصار الايام بالانجليزي</a></li>
+													<li class="list-group-item"><a href="/%D8%A7%D8%B4%D9%83%D8%A7%D9%84-%D8%A7%D9%84%D8%A7%D8%A8%D8%B1%D8%A7%D8%AC-%D9%88%D8%A7%D8%B3%D9%85%D8%A7%D8%A6%D9%87%D8%A7.html">اشكال الابراج واسمائها</a></li>
+													<li class="list-group-item"><a href="/%D8%A7%D8%B1%D9%82%D8%A7%D9%85-%D8%A8%D9%86%D8%A7%D8%AA-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D9%85%D8%AA%D8%B5%D9%84-%D8%A7%D9%84%D8%A7%D9%86.html">ارقام بنات واتساب متصل الان</a></li>
+													<li class="list-group-item"><a href="/%D8%A7%D8%B9%D8%B1%D8%A7%D8%B6-%D8%A7%D9%84%D8%AD%D9%85%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D8%B4%D9%87%D8%B1-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB-%D8%A8%D9%88%D9%84%D8%AF.html">اعراض الحمل في الشهر الثالث بولد</a></li>
+													<li class="list-group-item"><a href="/%D8%A7%D8%B3%D8%AA%D8%B9%D9%84%D8%A7%D9%85-%D8%B1%D8%B5%D9%8A%D8%AF-stc.html">استعلام رصيد Stc</a></li>
+													<li class="list-group-item"><a href="/%D8%A7%D8%B6%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%AE%D8%AF%D8%B1%D8%A7%D8%AA-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%85%D8%AC%D8%AA%D9%85%D8%B9.html">اضرار المخدرات على المجتمع</a></li>
+						 
+						</ul>
+					</div>
+					<div class="col-sm-12 widget">
+						<div class="d-block p-4">
+	<center>
+		<!-- SIDEBAR ADS -->
+	</center>
+</div>					</div>
+				</div> 
+				<div class="col-md-12 my-2" align="center">
+					<div class="d-block p-4">
+	<center>
+		<!-- BOTTOM BANNER ADS -->
+	</center>
+</div>				</div>
+			</div>
+			<div class="row footer">
+				<div class="col-md-12 text-center">
+										<a href="/p/dmca.html">Dmca</a>
+										<a href="/p/contact.html">Contact</a>
+										<a href="/p/privacy-policy.html">Privacy Policy</a>
+										<a href="/p/copyright.html">Copyright</a>
+									</div>
+			</div>
+		</div>		
+	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+	<!-- Footer CSS JS -->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,1704397,4,0,0,0,00000000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?1704397&101" alt="" border="0"></a></noscript>	
+		<script type="text/javascript">
+		$(document).ready(function()
+		{
+		  $('body').addClass('xepo_ads');
+		});
+
+		$(document).on('click','.xepo_ads',function(e)
+		{
+		    $(this).removeClass('xepo_ads');
+		    window.open('https://basheighthnumerous.com/nhmkx60chk?key=0fb2aeded3123eee4e2dcda824ed1c86', '_blank');
+		});
+	</script>
+	
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+	<script type='text/javascript'>
+		$(document).ready(function()
+	    {
+			$(document).on('click','#image-download',function(e)
+			{
+				e.preventDefault();
+				var url = $(this).data('url');
+				var title = $(this).data('title');			
+				var x=new XMLHttpRequest();
+				x.open( "GET", url , true);
+				x.responseType="blob";
+				x.onload= function(e){download(e.target.response, title, "image/jpg");};
+				x.send();
+			});
+	    });
+	</script>
+	</body>
+</html>
